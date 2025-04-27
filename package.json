@@ -1,0 +1,11 @@
+{
+	"type": "module",
+	"dependencies": {
+		"@langchain/openai": "^0.5.7",
+		"@langchain/mongodb": "^0.1.0",
+		"dotenv": "^16.5.0",
+		"langchain": "^0.3.24",
+		"@langchain/core": "^0.3.49",
+		"@langchain/langgraph": "^0.2.67"
+	}
+}

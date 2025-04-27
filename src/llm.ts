@@ -5,7 +5,7 @@ import * as readline from "readline";
 
 // Load environment variables from .env file
 config();
-const llm_key = process.env.DEEPINFRA_API_KEY;
+const llm_key = process.env.MODELSTUDIO_API_KEY;
 
 const llm = new ChatOpenAI({
   model: "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",

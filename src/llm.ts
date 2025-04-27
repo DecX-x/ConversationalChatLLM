@@ -8,11 +8,11 @@ config();
 const llm_key = process.env.MODELSTUDIO_API_KEY;
 
 const llm = new ChatOpenAI({
-  model: "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8",
+  model: "qwen-plus",
   apiKey: llm_key,
   temperature: 0.7,
   configuration: {
-    baseURL: "https://api.deepinfra.com/v1/openai"
+    baseURL: "https://dashscope-intl.aliyuncs.com/compatible-mode/v1"
   },
   streaming: true
 });
